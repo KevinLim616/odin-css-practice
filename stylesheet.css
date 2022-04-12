@@ -68,6 +68,16 @@ body{
     font-weight: bold;
     width: 125px;
     height: 35px;
+    cursor: pointer;
+    transition: background-color 0.3s,
+    color 0.3s, opacity 0.3s;
+}
+.button:hover{
+    background-color: #f9faf8;
+    color: #3882f6;
+}
+.button:active{
+    opacity: 0.7;
 }
 .image-container{
     width: 300px;
@@ -155,6 +165,16 @@ body{
     font-size: 16px;
     font-weight: bold;
     border-style: solid;
+    cursor: pointer;
+    transition: opacity 0.3s, background-color 0.3s,
+    color 0.3s;
+}
+.sign-up-button:hover{
+    background-color: #f9faf8;
+    color: #3882f6;
+}
+.sign-up-button:active{
+    opacity: 0.5;
 }
 .banner-text{
     display: inline-block;
